@@ -8,3 +8,12 @@
 .home-bg-layout{
        background-color: rgba(3, 3, 3, 0.808);
 }
+.home-title-container{
+       height: 60vh;
+}
+.home-title{
+       background: linear-gradient(10deg,rgb(244, 26, 26),rgb(205, 134, 134));
+       -webkit-text-fill-color: transparent;
+       -webkit-background-clip: text;
+       font-weight: 600;
+}
