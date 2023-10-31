@@ -1,0 +1,28 @@
+.navbar-container{
+       height: 15vh !important;
+}
+.navbar-select-location-wrapper{
+       background-color: rgba(224, 255, 255, 0.594);
+       transition: all .5s;
+}
+.navbar-select-location-wrapper:hover{
+       background: var(--darker-pink);;
+}
+.navbar-select-location-icon{
+       font-size: 1.5rem;
+       color: black;
+}
+.navbar-select-location-text{
+       color: black;
+       font-size: .8rem;
+       font-weight: 600;
+       white-space: nowrap;
+}
+.navbar-search-icon-container{
+       left: 5%;
+       font-size: 1.7rem !important;
+       font-weight: 600;
+}
+.navbar-search-input{
+       background-color: rgba(224, 255, 255, 0.594);
+}

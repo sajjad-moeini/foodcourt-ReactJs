@@ -1,0 +1,32 @@
+
+:root {
+  --main-pink: rgb(255, 0, 166);
+  --light-pink: rgba(255, 0, 166, 0.06);
+  --text-pink: rgb(250, 40, 75);
+  --darker-pink:rgba(255, 0, 166, 0.164);
+}
+@font-face {
+  font-family: iranSans;
+  src: url(../public/fonts/iransans.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: iranSans !important;
+}
+.cp{
+  cursor: pointer;
+}
+.app-container{
+  width: 100vw !important;
+  overflow-x: hidden;
+  height: 100%;
+}
+.h-10{
+  height: 10% !important;
+}
+.d-flex-centering{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}

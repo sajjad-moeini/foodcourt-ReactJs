@@ -6,3 +6,4 @@ let Routes = [
               element:<Home />
        }
 ]
+ export default Routes
