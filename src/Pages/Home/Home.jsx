@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
 import allInfos from './../../store'
+import GoogleMap from '../../Components/GoogleMap/GoogleMap'
 console.log(allInfos)
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
           به فوت کورت راد خوش آمدید
         </h1>
       </div>
+      <GoogleMap/>
     </>
   )
 }

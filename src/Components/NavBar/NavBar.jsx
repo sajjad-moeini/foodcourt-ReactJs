@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './NavBar.css'
 import { AiOutlineInfoCircle, AiOutlineArrowDown, AiOutlineSearch } from 'react-icons/ai'
 import { FaStore } from 'react-icons/fa'
 import { MdAccountCircle } from 'react-icons/md'
+import { foodCurtContext } from '../../context/foodCurtContext'
 export default function NavBar() {
+  const context = useContext(foodCurtContext)
   return (
     <div className='w-100 navbar-container'>
       <div className="row  h-100 mx-auto" style={{ width: '90%' }}>
@@ -11,7 +13,7 @@ export default function NavBar() {
           <img src="images/logo/logo.png" className='img-fluid' alt="" />
         </div>
         <div className="navbar-select-location-container col-6 col-lg-3  d-flex-centering ">
-          <div className="navbar-select-location-wrapper d-flex-centering justify-content-around p-2 rounded-4  w-100 cp">
+          <div className="navbar-select-location-wrapper d-flex-centering justify-content-around p-2 rounded-4  w-100 cp" onClick={()=>{context.setIsMapShow(prev=>!prev)}}>
             <AiOutlineInfoCircle className='navbar-select-location-icon' />
             <div className='navbar-select-location-text-container d-flex align-items-center'>
               <div className='navbar-select-location-text mx-2'>

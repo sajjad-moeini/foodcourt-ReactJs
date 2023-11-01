@@ -6,7 +6,7 @@
        transition: all .5s;
 }
 .navbar-select-location-wrapper:hover{
-       background: var(--darker-pink);;
+       background: rgba(224, 255, 255, 0.913);
 }
 .navbar-select-location-icon{
        font-size: 1.5rem;

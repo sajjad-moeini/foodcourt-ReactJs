@@ -1,0 +1,15 @@
+.google-map-modal{
+       left: 25vw;
+       top: 25vh;
+       height: fit-content;
+       width: 50vw;
+       overflow: hidden;
+       background-color: aliceblue;
+}
+.goole-map-close-btn{
+       font-size: 1.5rem;
+}
+.google-map-container{
+       width: 100%;
+       height: 40vh;
+}
