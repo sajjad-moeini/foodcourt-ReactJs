@@ -1,0 +1,19 @@
+.footer{
+       background-color: rgba(250, 235, 215, 0.438);
+       margin-top: 15vh;
+}
+.footer-social-icon-container{
+       width: 70px;
+       height: 70px;
+       font-size: 2rem;
+       background-color: aliceblue;
+}
+.footer li{
+       margin: 1.5vh 0 !important;
+       font-weight: 500;
+       font-size: .9rem;
+       cursor: pointer;
+}
+.footer li:hover{
+       color: rgb(32, 32, 116);
+}

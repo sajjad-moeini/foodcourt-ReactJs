@@ -7,6 +7,7 @@ import NavBar from './Components/NavBar/NavBar'
 import { foodCurtContext } from './context/foodCurtContext'
 import GoogleMap from './Components/GoogleMap/GoogleMap'
 import ShownProductBox from './Components/ShownProductBox/ShownProductBox'
+import Footer from './Components/Footer/Footer'
 function App() {
 
   const router = useRoutes(Routes)
@@ -31,6 +32,7 @@ function App() {
           {ShownProduct && <ShownProductBox />}
 
         </div>
+        <Footer />
       </foodCurtContext.Provider>
     </>
   )
