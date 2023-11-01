@@ -29,6 +29,14 @@
        background-attachment: fixed;
        margin: 10vh 0 !important;
 }
+.home-categories-show-section-bg{
+       width: 100%;
+       height: 50vh;
+       background: url(../../../public/images/20231101_210956_960389716.jpg);
+       background-size: cover;
+       background-attachment: fixed;
+       margin: 10vh 0 !important;
+}
 .home-restaurant-box{
        height: 50vh;
        box-shadow: 0px 0px 10px 1px rgba(128, 128, 128, 0.315);
@@ -45,4 +53,10 @@
        border-radius: 1rem;
        padding: .6rem;
        background-color: rgba(250, 235, 215, 0.758);
+}
+.home-category-box-img{
+       transition: all .5s;
+}
+.home-category-box:hover .home-category-box-img{
+transform: scale(1.1);
 }

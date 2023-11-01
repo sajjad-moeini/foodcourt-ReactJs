@@ -76,6 +76,30 @@ export default function Home() {
         }
      
       </div>
+      <div className="home-categories-show-section-bg position-relative h1 d-flex-centering">
+        دسته بندی ها
+        <SvgGen pos={'buttom'} />
+        <SvgGen pos={'top'} />
+      </div>
+      <div className="home-food-categories-section">
+        <div className="row w-75 mx-auto">
+          {
+            allInfos.foodTypes.map((type,index)=>(
+<div className="col-12 col-md-4 col-lg-3 mt-5" key={index}>
+            <div className="home-category-box d-flex-centering flex-column cp">
+              <div className="home-category-box-img-container d-flex-centering rounded-circle w-75 overflow-hidden" data-aos="zoom-in-down" data-aos-duration="1000">
+                <img src={type.img} className='img-fluid home-category-box-img' alt="" />
+              </div>
+              <div className="home-category-box-title h3 d-flex-centering">
+                {type.title}
+              </div>
+            </div>
+          </div>
+            ))
+          }
+          
+        </div>
+      </div>
     </>
   )
 }

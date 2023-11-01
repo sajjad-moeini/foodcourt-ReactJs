@@ -2,31 +2,31 @@ let allInfos = {
        foodTypes: [
               {
                      title: 'پیتزا',
-                     img: 'images/foodTypes/pizza.jpeg'
+                     img: 'images/footdTypes/pizza.jpeg'
               },
               {
                      title:  'برگر',
-                     img: 'images/foodTypes/burger.jpeg'
+                     img: 'images/footdTypes/burger.jpeg'
               },
               {
                      title:  'پاستا',
-                     img: 'images/foodTypes/pasta.jpeg'
+                     img: 'images/footdTypes/pasta.jpeg'
               },
               {
                      title:  'ساندویچ',
-                     img: 'images/foodTypes/sandwich.jpeg'
+                     img: 'images/footdTypes/sandwich.jpeg'
               },
               {
                      title:  'استرامبولی',
-                     img: 'images/foodTypes/stramboli.jpeg'
+                     img: 'images/footdTypes/stramboli.jpg'
               },
               {
                      title:  'سالاد',
-                     img: 'images/foodTypes/salad.jpeg'
+                     img: 'images/footdTypes/salad.jpeg'
               },
               {
                      title:  'سوخاری',
-                     img: 'images/foodTypes/sokhari.jpeg'
+                     img: 'images/footdTypes/sokhari.jpeg'
               },
        ],
        foods: [
