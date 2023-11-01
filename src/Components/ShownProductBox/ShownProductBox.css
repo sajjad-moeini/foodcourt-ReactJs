@@ -1,0 +1,23 @@
+.shown-product-box{
+       position: fixed;
+       z-index: 2;
+       width: 60vw;
+       height: 60vh;
+       left: 20vw;
+       top: 25vh;
+       background-color: aliceblue;
+       border-radius: 1rem !important;
+       box-shadow: 0px 0px 50px 5px gray;
+       animation: googleMapShow 1s;
+}
+.shown-food-star-container{
+       border: 1px solid gray;
+}
+.shown-food-main-price{
+       font-size: .8rem;
+}
+.user-coment-order{
+       font-size: .5rem;
+       background-color: rgba(128, 128, 128, 0.511);
+       padding: .2rem;
+}

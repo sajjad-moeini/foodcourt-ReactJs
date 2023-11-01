@@ -1121,17 +1121,17 @@ let allInfos = {
               },
        ],
        companys: [
-              { title: 'باریزو (شعبه میرداماد)', logo: 'images/companysLogo/62cd0d29169da.jpeg', rate: 4.3, score: 13700, bg: 'images/companysLogo/6109336cc61c5.jpeg', foods: 'سالاد و پیش‌غذا، سس همراه غذا، برگر' },
+              { title: 'باریزو (شعبه میرداماد)', logo: 'images/companysLogo/62cd0d29169da.jpg', rate: 4.3, score: 13700, bg: 'images/companysLogo/6109336cc61c5.jpg', foods: 'سالاد و پیش‌غذا، سس همراه غذا، برگر',aos:'fade-up-left' },
 
-              { title: `پیتزا شیلا (پارک ملت)`, logo: 'images/companysLogo/5e425b1b4cf0b.jpeg', rate: 4.6, score: 40772, bg: 'images/companysLogo/6109336cc61c5.jpeg', foods: `فست‌فود, پیتزا, ساندویچ, برگر` },
+              { title: `پیتزا شیلا (پارک ملت)`, logo: 'images/companysLogo/5e425b1b4cf0b.jpg', rate: 4.6, score: 40772, bg: 'images/companysLogo/shila.jpg', foods: `فست‌فود, پیتزا, ساندویچ, برگر`,aos:'fade-up' },
 
-              { title: "پیتزا پرپروک (جردن)", logo: 'images/companysLogo/5ea1dcea1fe96.jpeg', rate: 4.6, score: 10592, bg: 'images/companysLogo/6109336cc61c5.jpeg', foods: 'فست‌فود, پیتزا, سالاد' },
+              { title: "پیتزا پرپروک (جردن)", logo: 'images/companysLogo/5ea1dcea1fe96.jpeg', rate: 4.6, score: 10592, bg: 'images/companysLogo/perperuk.jpeg', foods: 'فست‌فود, پیتزا, سالاد',aos:'fade-up' },
 
-              { title: "برگر لند (اندرزگو - شبانه)", logo: 'images/companysLogo/649ab64ad558c.jpeg', rate: 4.3, score: 760, bg: 'images/companysLogo/62b2c8036b5ea.jpeg', foods: 'فست‌فود, برگر' },
+              { title: "برگر لند (اندرزگو - شبانه)", logo: 'images/companysLogo/649ab64ad558c.jpeg', rate: 4.3, score: 760, bg: 'images/companysLogo/bergerland.jpg', foods: 'فست‌فود, برگر',aos:'fade-up-right' },
 
-              { title: "چینو سوخاری قیطریه ", logo: 'images/companysLogo/64d0857ff0651.jpeg', rate: 4.2, score: 6132, bg: 'images/companysLogo/64de364e497f6.jpeg', foods: `فست‌فود، سوخاری، پیتزا` },
+              { title: "چینو سوخاری قیطریه ", logo: 'images/companysLogo/64d0857ff0651.png', rate: 4.2, score: 6132, bg: 'images/companysLogo/chino.jpeg', foods: `فست‌فود، سوخاری، پیتزا`,aos:'fade-up-right' },
 
-              { title: "باماهاس (فرشته)", logo: 'images/companysLogo/62ea3123d17b4.jpeg', rate: 4.2, score: 1117, bg: 'images/companysLogo/62ea3123da2a3.jpeg', foods: `فست‌فود، ساندویچ، پیتزا` },
+              { title: "باماهاس (فرشته)", logo: 'images/companysLogo/62ea3123d17b4.jpg', rate: 4.2, score: 1117, bg: 'images/companysLogo/62ea3123da2a3.jpeg', foods: `فست‌فود، ساندویچ، پیتزا`,aos:'fade-up' },
 
 
        ]

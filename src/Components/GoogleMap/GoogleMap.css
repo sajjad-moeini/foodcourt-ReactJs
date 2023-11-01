@@ -5,6 +5,7 @@
        width: 50vw;
        overflow: hidden;
        background-color: aliceblue;
+       animation: googleMapShow 1s;
 }
 .goole-map-close-btn{
        font-size: 1.5rem;

@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './SvgGen.css'
 export default function SvgGen({pos}) {
+
   return (
     <>
     {pos == 'buttom' && (
   
-       <svg className='graph-svg position-absolute ' style={{bottom:'0'}}  height="210" width="400"
+       <svg className='graph-svg position-absolute '  style={{bottom:'0'}}  height="210" width="400"
        strokeWidth="3" >
        <path d="M1906.688,12.029c-1.653-1.78-3.943-0.347-5.823-0.883c-0.623,0.442-0.879,1.208-1.873,1.044
 c-1.992-1.974-5.01-1.6-7.448-2.713c-0.417,0.074-0.441,0.997-1.238,0.33c-0.103-0.113-0.323-0.356-1.033-1.142
