@@ -1,0 +1,36 @@
+.time-container{
+       font-size: 1.7rem;
+       font-weight: 600;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: rgba(11, 11, 11, 0.329);
+       border-top-left-radius: .8rem;
+       border-top-right-radius: .8rem;
+       border-bottom-left-radius: .3rem;
+       border-bottom-right-radius: .3rem;
+}
+@media screen and (max-width:998px) {
+       .time-container{
+              font-size: 1rem;
+              padding: 0 .8rem !important;
+       }
+       .offCounter-container{
+              width: 30% !important;
+              top: -5vh !important;
+              right: 3vw !important;
+       }
+}
+.time-title{
+       position: absolute;
+       font-size: .8rem;
+       color: #fcf9f9;
+       top: 100%;
+       background-color: rgb(198, 18, 18);
+       border-bottom-left-radius: .8rem;
+       border-bottom-right-radius: .8rem;
+       border-top-left-radius: .3rem;
+       border-top-right-radius: .3rem;
+       padding: .3rem;
+
+}

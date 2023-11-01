@@ -5,6 +5,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.rtl.css'
 import { useRoutes } from 'react-router-dom'
 import NavBar from './Components/NavBar/NavBar'
 import { foodCurtContext } from './context/foodCurtContext'
+import GoogleMap from './Components/GoogleMap/GoogleMap'
 function App() {
 
   const router = useRoutes(Routes)
@@ -20,6 +21,7 @@ function App() {
         <div className="app-container">
           <NavBar />
           {router}
+          {isMapShow && <GoogleMap/>}
         </div>
       </foodCurtContext.Provider>
     </>

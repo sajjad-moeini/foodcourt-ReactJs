@@ -399,7 +399,7 @@ let allInfos = {
                      type: 'استرامبولی',
                      name: `
                استرامبولی دونر استیک پنیری`,
-                     img: 'images/foods/64d4e880ca9d1.jpeg',
+                     img: 'images/foods/64d4e880ca9d1.jpg',
                      price: 214000,
                      off: 10,
                      size: `32 سانتی متری`,
@@ -835,7 +835,7 @@ let allInfos = {
                      company: `چینو سوخاری قیطریه `,
                      type: 'سوخاری',
                      name: `مرغ سوخاری سه تکه`,
-                     img: 'images/foods/653a0954909ac.jpeg',
+                     img: 'images/foods/653a0954909ac.jpg',
                      price: 285000,
                      off: 5,
                      // size:`32 سانتی متری`,
@@ -907,7 +907,7 @@ let allInfos = {
                      company: `چینو سوخاری قیطریه `,
                      name: `مهمانی پنج نفره چینو سوخاری`,
                      type: 'سوخاری',
-                     img: 'images/foods/653a099c917a1.jpeg',
+                     img: 'images/foods/653a099c917a1.jpg',
                      price: 930000,
                      off: 10,
                      // size:`32 سانتی متری`,
@@ -1137,4 +1137,4 @@ let allInfos = {
        ]
 }
 
-export default { allInfos }
+export default  allInfos 

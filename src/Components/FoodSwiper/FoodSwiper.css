@@ -1,0 +1,39 @@
+.swiper-container{
+       width: 90%;
+       height: 55vh;
+       padding-bottom: 2vh;
+       background-color: rgb(198, 18, 18);
+}
+.offCounter-container{
+       width: 15%;
+       top: -7.5vh;
+       right: 1vw;
+}
+.swiper-wrapper{
+       margin-top:2.5vh !important;
+       width: 95% !important;
+       height: 90% !important;
+       background-color: aliceblue;
+       border-radius: .6rem;
+}
+.mySwiper{
+       width: 95% !important;
+       border-left: 1px solid rgba(128, 128, 128, 0.361);
+       border-right: 1px solid rgba(128, 128, 128, 0.361);
+}
+.swiper-slide{
+width: 250px !important;
+border-left: 1px solid rgba(128, 128, 128, 0.361);
+       border-right: 1px solid rgba(128, 128, 128, 0.361);
+       transition: all .5s;
+}
+.swiper-slide:hover{
+       transform:translateY(-.5vh)scale(1.05) !important;
+}
+.swiper-img{
+       width: 150px;
+       height: 150px;
+}
+.swiper-food-title{
+       font-weight: 600;
+}

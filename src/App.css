@@ -17,6 +17,11 @@
 .cp{
   cursor: pointer;
 }
+body{
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: #eae7de !important;
+}
 .app-container{
   width: 100vw !important;
   overflow-x: hidden;

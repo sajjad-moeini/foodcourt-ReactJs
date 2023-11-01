@@ -17,3 +17,10 @@
        -webkit-background-clip: text;
        font-weight: 600;
 }
+.home-offs-swiper-container{
+       margin-top: 20vh;
+       margin-bottom: 10vh;
+}
+.off-section-title{
+       margin: 15vh !important;
+}
